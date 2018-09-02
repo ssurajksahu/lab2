@@ -1,0 +1,20 @@
+#include<iostream>                                //directive for preprocessor
+using namespace std;                              //declaration for using c++ library
+int main(){                                      //starting point of execution
+   int a,b,c;                                       //dceclaration of variables
+  cout<<"enter the threee sides of a triangle"<<endl;
+  cin>>a;
+  cin>>b;                                            //storing of data from particular steam 
+  cin>>c;
+    if(a==b==c){                                      //conditional structure
+         cout<<"it is an equilateral trangle";               // statement 
+                       }
+                 
+    else if (a!=b || a!=c){            //use of conditional structure with compound operator
+          cout<<"it is a scalene triangle";
+                           }
+      else {
+         cout<<"it is an isoscale triangle";
+            }
+      return 0;                                          //ending of execution
+    }
